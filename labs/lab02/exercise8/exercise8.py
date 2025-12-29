@@ -3,7 +3,8 @@ def calculate_bounce_height(current_height):
     Calculate the next bounce height (80% of current).
     """
     # TODO: Implement this
-    pass
+
+
 
 
 def is_ball_stopped(height):
