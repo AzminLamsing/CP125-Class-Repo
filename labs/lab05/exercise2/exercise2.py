@@ -1,10 +1,11 @@
-
 def find_largest_drop(readings):
-    """
-    Return the largest consecutive temperature drop, or 0.0 if none.
-    """
-    pass
-
+    largest_drop = 0
+    for item in range(len(readings)-1):
+        if readings[item] > readings[item + 1]:
+            drop = abs(readings[item] - readings[item + 1])
+            if drop > largest_drop :
+                largest_drop = drop 
+    return largest_drop      
 
 # Test
 temps = (32.5, 31.0, 31.5, 28.0, 24.5)
