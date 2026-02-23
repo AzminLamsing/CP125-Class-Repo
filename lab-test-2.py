@@ -14,4 +14,4 @@ num = int(input("Enter your number : "))
 result = enter_input(num)
 
 print(num)
-print(num_list)
+print(new_list)
